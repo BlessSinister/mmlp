@@ -4,25 +4,28 @@ import alkogan from './alkogan.jpg'
 import w_logo from './w_logo.png'
 import o_logo from './o_logo.png'
 
+
 class Main extends React.Component {
     render() {
         return (
             <main>
                 <section>
-                    <div>
+                    <div className='main-hello-section'>
                         <h2>
                             Магазин моих лучших покупок
                         </h2>
                         <p>Молодая динамично развивающаяся компания, которая специализируется на продаже высококачественных товаров самых различных видов.</p>
                     </div>
-                    <div>
+                    <div className='main-three-section'>
                         <h3>
 
                             3 точки онлайн продаж
                         </h3>
-                        <p>Более 2-х лет назад мы начали успешно сотрудничать с самыми крупными маркетплейсами России. За это время нам удалось наладить продажи на таких площадках как: Wildberries, Ozon, Яндекс.Маркет.</p>
+                        <p>Более 2-х лет назад мы начали успешно сотрудничать с самыми крупными маркетплейсами России. За это время нам <br /> удалось наладить продажи на таких площадках как: <br /> Wildberries, Ozon, Яндекс.Маркет.</p>
                     </div>
-                    <div>
+                    <div className='main-background'></div>
+                    <div className='main-price-section'>
+
                         <h3>
 
                             Доступная цена
@@ -31,7 +34,7 @@ class Main extends React.Component {
 
                         </p>
                     </div>
-                    <div>
+                    <div className='main-highquality-section'>
                         <h3>
 
                             Высокое качество
@@ -39,7 +42,7 @@ class Main extends React.Component {
                         <p>нашей продукции обеспечивается тем, что она проходит тройную проверку качества: производитель проверяет на этапе передачи товара, Магазин Моих Лучших Покупок проверяет на этапе упаковки и маркетплейс проверяет на этапе приемки.
                         </p>
                     </div>
-                    <div>
+                    <div className='main-customer-section'>
                         <h3>
                             Ценим покупателя
                         </h3>
@@ -47,7 +50,7 @@ class Main extends React.Component {
                         </p>
                     </div>
                 </section>
-                <section>
+                {/* <section>
                     <article>
                         <div className="main-container-1">
                             <h2>Мы предлагаем Вам РЕДУСЛИМ</h2>
@@ -118,7 +121,7 @@ class Main extends React.Component {
                             <div className="btn">Купить на OZON</div>
                         </a>
                     </article>
-                </section>
+                </section> */}
             </main>
         )
     }
