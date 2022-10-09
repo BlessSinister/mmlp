@@ -115,18 +115,19 @@ class Main extends React.Component {
                             <h3>БАД. Не является лекарством.</h3>
                         </div>
                     </article>
-                    {/* <article>
-                        <div className="main-container-5"></div>
+                    <article className='where-can-buy'>
                         <h2>Где купить Нашу продукцию?</h2>
-                        <img src={w_logo} alt="" />
-                        <img src={o_logo} alt="" />
-                        <a href="$">
-                            <div className="btn">Купить на WILDBERRIES</div>
-                        </a>
-                        <a href="$">
-                            <div className="btn">Купить на OZON</div>
-                        </a>
-                    </article> */}
+                        <div className="main-container-5">
+                            <img src={w_logo} alt="" className='logo-wildberries' />
+                            <img src={o_logo} alt="" className='logo-ozon' />
+                            <a href="$">
+                                <div className="btn btn-wild">Купить на WILDBERRIES</div>
+                            </a>
+                            <a href="$">
+                                <div className="btn btn-ozon">Купить на OZON</div>
+                            </a>
+                        </div>
+                    </article>
                 </section>
             </main>
         )

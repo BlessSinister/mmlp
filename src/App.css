@@ -28,9 +28,25 @@ html {
     position: absolute;
     left: 450px;
     gap: 10px;
-    top: 25px;
+    top: 10px;
     font-weight: 700;
 }
+
+.nav-li-effects:hover {
+    margin-right: 10px;
+    text-decoration: underline;
+    font-size: 20px;
+    padding: 2px 10px;
+    background: rgb(226, 163, 0);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.nav-li-effects:nth-child(3):hover {
+    margin-left: 10px;
+    transition: 1s;
+}
+
 
 a {
     text-decoration: none;
@@ -45,7 +61,7 @@ a button {
 .data-header-btn-position {
     position: absolute;
     left: 1250px;
-    top: 30px;
+    top: 20px;
 }
 
 .data-header-btn,
@@ -88,6 +104,11 @@ a button {
     overflow: hidden;
     width: 100%;
     height: 623px;
+}
+
+span {
+    color: #56358b;
+    border-bottom: 5px solid;
 }
 
 .slider-container {
@@ -314,4 +335,117 @@ h6 {
     width: 100%;
     max-width: 565px;
 
+}
+
+.where-can-buy {
+    position: relative;
+    top: 2130px;
+    width: 1900px;
+    height: 202px;
+}
+
+.where-can-buy h2 {
+    font-size: 42px;
+    margin-left: 400px;
+}
+
+.main-container-5 {
+
+    background: #F9FAFE;
+    height: 300px;
+
+}
+
+.main-container-5 img {
+    position: absolute;
+}
+
+.logo-wildberries {
+    left: 400px;
+    top: 115px;
+    width: 350px;
+    height: 100px;
+}
+
+.logo-ozon {
+    left: 790px;
+    top: 130px;
+    width: 330px;
+    height: 72px;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #fff;
+    background: #56358b;
+    width: 130px;
+    height: 14px;
+    padding: 15px;
+    border-radius: 30px;
+    margin-left: 10px;
+
+}
+
+.btn-wild {
+    position: absolute;
+    width: 190px;
+    top: 250px;
+    left: 455px;
+
+}
+
+.btn-ozon {
+    position: absolute;
+    top: 250px;
+    left: 855px;
+}
+
+.btn:hover {
+    background: rgb(226, 163, 0);
+}
+
+/* FOOTER */
+footer {
+    position: relative;
+    top: 2270px;
+    width: 100%;
+    height: 380px;
+    color: #fff;
+    background: black;
+
+}
+
+footer h6 {
+    font-size: 20px;
+    text-decoration: none;
+    position: absolute;
+    left: 500px;
+
+}
+
+.footer-thx-p {
+    position: absolute;
+    left: 500px;
+    top: 100px;
+
+}
+
+.footer-ip-p {
+    position: absolute;
+    left: 500px;
+    top: 160px;
+
+}
+
+.footer-copyrights {
+    position: absolute;
+    left: 500px;
+    top: 275px;
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    width: 1150px;
+    height: 32px;
+    padding: 20px 0;
 }
