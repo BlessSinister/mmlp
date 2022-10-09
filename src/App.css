@@ -34,7 +34,7 @@ html {
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 a button {
@@ -149,19 +149,26 @@ main {
 
 }
 
+.data-main-container-1 {
+    padding-bottom: 40px;
+}
+
 .main-abilities {
     margin-top: 150px;
 }
 
 .main-background {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    background: url('./background_main_element.png') right top no-repeat;
-    opacity: 0.8;
+    opacity: 0.2;
     left: 1000px;
-    top: -100px;
-    overflow: hidden;
+    top: -128px;
+
+}
+
+.main-background img {
+    width: 100%;
+    max-width: 550px;
+    max-height: 450px;
 }
 
 .main-hello-section {
@@ -213,4 +220,98 @@ h3 {
     height: 148px;
     left: 1025px;
     top: 150px;
+}
+
+/* REDUSLIM */
+.data-main-container-2 {
+    padding: 40px 0px;
+    max-width: 1652px;
+}
+
+.main-container-1 {
+    max-width: 585px;
+    position: absolute;
+    top: 300px;
+    left: 400px;
+
+}
+
+.main-container-1 p {
+    line-height: 25px;
+}
+
+.h2-redyslim {
+    font-size: 42px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration: underline;
+}
+
+.reduslim-instruction {
+    margin-top: -25px;
+    text-indent: 20px;
+}
+
+.main-container-2 {
+    max-width: 565px;
+    position: absolute;
+    top: 325px;
+    left: 1020px;
+    line-height: 25px;
+
+}
+
+.main-container-2 img {
+    width: 100%;
+    max-width: 565px;
+
+}
+
+.main-container-2 p {
+    text-indent: 20px;
+}
+
+
+/* ALKOGAN */
+.main-alkogan {
+    position: absolute;
+    width: 100%;
+    top: 1280px;
+}
+
+.main-container-3 {
+    max-width: 585px;
+    top: 300px;
+    margin-left: 400px;
+
+}
+
+.main-container-3 h2 {
+    font-size: 42px;
+}
+
+.main-container-4 {
+    position: absolute;
+    max-width: 585px;
+    width: 100%;
+    top: 0;
+    left: 1020px;
+    padding: 10px;
+}
+
+.main-container-4 img {
+    width: 100%;
+    max-width: 565px;
+
 }

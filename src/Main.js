@@ -3,13 +3,14 @@ import reduslim from './reduslin.jpg'
 import alkogan from './alkogan.jpg'
 import w_logo from './w_logo.png'
 import o_logo from './o_logo.png'
+import back from './background_main_element.png'
 
 
 class Main extends React.Component {
     render() {
         return (
             <main>
-                <section>
+                <section className='data-main-container-1'>
                     <div className='main-hello-section'>
                         <h2>
                             Магазин моих лучших покупок
@@ -23,7 +24,9 @@ class Main extends React.Component {
                         </h3>
                         <p>Более 2-х лет назад мы начали успешно сотрудничать с самыми крупными маркетплейсами России. За это время нам <br /> удалось наладить продажи на таких площадках как: <br /> Wildberries, Ozon, Яндекс.Маркет.</p>
                     </div>
-                    <div className='main-background'></div>
+                    <div className='main-background'>
+                        <img src={back} alt="" />
+                    </div>
                     <div className='main-price-section'>
 
                         <h3>
@@ -50,10 +53,10 @@ class Main extends React.Component {
                         </p>
                     </div>
                 </section>
-                {/* <section>
-                    <article>
+                <section className='.data-main-container-2'>
+                    <article className='main-reduslim'>
                         <div className="main-container-1">
-                            <h2>Мы предлагаем Вам РЕДУСЛИМ</h2>
+                            <h2 className='h2-redyslim'>Мы предлагаем Вам РЕДУСЛИМ</h2>
                             <p>Биологически активный комплекс для тех, кто заботится о своем здоровье и следит за фигурой.</p>
                             <p>Всего одна капсула РЕДУСЛИМа по утрам запускает активный процесс борьбы с психологической зависимостью от еды и способствуют:</p>
                             <ul>
@@ -68,7 +71,7 @@ class Main extends React.Component {
                                 <li>Выработке устойчивости полезных пищевых привычек</li>
                             </ul>
                             <h6>Рекомендации по применению:</h6>
-                            <p>РЕДУСЛИМ следует принимать по 1 капсуле в день во время еды, запивая достаточным количеством воды. Продолжительность приема 2- 3 недели и может зависеть от индивидуальных особенностей организма и целей. К примеру, если Вы поставили себе цель похудеть на 10 и более килограммов, то следует увеличить срок приема Редуслима и при необходимости прием можно повторить через месяц.</p>
+                            <p className='reduslim-instruction'>РЕДУСЛИМ следует принимать по 1 капсуле в день во время еды, запивая достаточным количеством воды. Продолжительность приема 2- 3 недели и может зависеть от индивидуальных особенностей организма и целей. К примеру, если Вы поставили себе цель похудеть на 10 и более килограммов, то следует увеличить срок приема Редуслима и при необходимости прием можно повторить через месяц.</p>
                         </div>
                         <div className="main-container-2">
                             <img src={reduslim} alt="reduslim" />
@@ -77,8 +80,11 @@ class Main extends React.Component {
                             <p>При ежедневном приеме РЕДУСЛИМа результат заметен уже через 2 недели, длительность курса 2-3 недели, возможен прием в течение месяца и после небольшого перерыва при необходимости повторить курс</p>
                             <h3>БАД. Не является лекарством.</h3>
                         </div>
+
                     </article>
-                    <article>
+
+                    <article className='main-alkogan'>
+
                         <div className="main-container-3">
                             <h2>Мы предлагаем Вам Антиалкогольные капли АЛКОГЛАН</h2>
                             <p>Безопасное и эффективное средство, действие компонентов которого направлено на:</p>
@@ -109,7 +115,7 @@ class Main extends React.Component {
                             <h3>БАД. Не является лекарством.</h3>
                         </div>
                     </article>
-                    <article>
+                    {/* <article>
                         <div className="main-container-5"></div>
                         <h2>Где купить Нашу продукцию?</h2>
                         <img src={w_logo} alt="" />
@@ -120,8 +126,8 @@ class Main extends React.Component {
                         <a href="$">
                             <div className="btn">Купить на OZON</div>
                         </a>
-                    </article>
-                </section> */}
+                    </article> */}
+                </section>
             </main>
         )
     }
